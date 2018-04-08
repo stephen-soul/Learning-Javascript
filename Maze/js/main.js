@@ -64,7 +64,7 @@ function buttonUp() {
         document.getElementById("score").innerHTML = "Your score is "+score+"!";
         document.getElementById(playerO + "-" + playerX).innerHTML = "";
         playerO--;
-        document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-rock-music-filled-15.png' alt='player'/>";
+        document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-mankey-15.png' alt='player'/>";
     }
 }
 
@@ -74,7 +74,7 @@ function buttonDown() {
         document.getElementById("score").innerHTML = "Your score is "+score+"!";
         document.getElementById(playerO + "-" + playerX).innerHTML = "";
         playerO++;
-        document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-rock-music-filled-15.png' alt='player'/>";
+        document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-mankey-15.png' alt='player'/>";
     }
 }
 
@@ -84,7 +84,7 @@ function buttonLeft() {
         document.getElementById("score").innerHTML = "Your score is "+score+"!";
         document.getElementById(playerO + "-" + playerX).innerHTML = "";
         playerX--;
-        document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-rock-music-filled-15.png' alt='player'/>";
+        document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-mankey-15.png' alt='player'/>";
     }
 }
 
@@ -95,7 +95,7 @@ function buttonRight() {
         document.getElementById("score").innerHTML = "Your score is "+score+"!";
         document.getElementById(playerO + "-" + playerX).innerHTML = "";
         playerX++;
-        document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-rock-music-filled-15.png' alt='player'/>";
+        document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-mankey-15.png' alt='player'/>";
     }
 }
 
@@ -114,7 +114,7 @@ window.onkeydown=function(event) {
                 document.getElementById("score").innerHTML = "Your score is "+score+"!";
                 document.getElementById(playerO + "-" + playerX).innerHTML = "";
                 playerO--;
-                document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-rock-music-filled-15.png' alt='player'/>";
+                document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-mankey-15.png' alt='player'/>";
                 if(playerO === prizeO && playerX === prizeX) {
                     setTimeout(callWinner, 10);
                 }
@@ -127,7 +127,7 @@ window.onkeydown=function(event) {
                 document.getElementById("score").innerHTML = "Your score is "+score+"!";
                 document.getElementById(playerO + "-" + playerX).innerHTML = "";
                 playerX--;
-                document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-rock-music-filled-15.png' alt='player'/>";
+                document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-mankey-15.png' alt='player'/>";
                 if(playerO === prizeO && playerX === prizeX) {
                     setTimeout(callWinner, 10);
                 }
@@ -140,7 +140,7 @@ window.onkeydown=function(event) {
                 document.getElementById("score").innerHTML = "Your score is "+score+"!";
                 document.getElementById(playerO + "-" + playerX).innerHTML = "";
                 playerO++;
-                document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-rock-music-filled-15.png' alt='player'/>";
+                document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-mankey-15.png' alt='player'/>";
                 if(playerO === prizeO && playerX === prizeX) {
                     setTimeout(callWinner, 10);
                 }
@@ -154,7 +154,7 @@ window.onkeydown=function(event) {
                 document.getElementById("score").innerHTML = "Your score is "+score+"!";
                 document.getElementById(playerO + "-" + playerX).innerHTML = "";
                 playerX++;
-                document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-rock-music-filled-15.png' alt='player'/>";
+                document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-mankey-15.png' alt='player'/>";
                 if(playerO === prizeO && playerX === prizeX) {
                     setTimeout(callWinner, 10);
                 }
@@ -167,7 +167,7 @@ window.onkeydown=function(event) {
                 document.getElementById("score").innerHTML = "Your score is "+score+"!";
                 document.getElementById(playerO + "-" + playerX).innerHTML = "";
                 playerO--;
-                document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-rock-music-filled-15.png' alt='player'/>";
+                document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-mankey-15.png' alt='player'/>";
                 if(playerO === prizeO && playerX === prizeX) {
                     setTimeout(callWinner, 10);
                 }
@@ -180,7 +180,7 @@ window.onkeydown=function(event) {
                 document.getElementById("score").innerHTML = "Your score is "+score+"!";
                 document.getElementById(playerO + "-" + playerX).innerHTML = "";
                 playerX--;
-                document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-rock-music-filled-15.png' alt='player'/>";
+                document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-mankey-15.png' alt='player'/>";
                 if(playerO === prizeO && playerX === prizeX) {
                     setTimeout(callWinner, 10);
                 }
@@ -193,7 +193,7 @@ window.onkeydown=function(event) {
                 document.getElementById("score").innerHTML = "Your score is "+score+"!";
                 document.getElementById(playerO + "-" + playerX).innerHTML = "";
                 playerO++;
-                document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-rock-music-filled-15.png' alt='player'/>";
+                document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-mankey-15.png' alt='player'/>";
                 if(playerO === prizeO && playerX === prizeX) {
                     setTimeout(callWinner, 10);
                 }
@@ -206,7 +206,7 @@ window.onkeydown=function(event) {
                 document.getElementById("score").innerHTML = "Your score is "+score+"!";
                 document.getElementById(playerO + "-" + playerX).innerHTML = "";
                 playerX++;
-                document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-rock-music-filled-15.png' alt='player'/>";
+                document.getElementById(playerO + "-" + playerX).innerHTML = "<img src='img/icons8-mankey-15.png' alt='player'/>";
                 if(playerO === prizeO && playerX === prizeX) {
                     setTimeout(callWinner, 10);
                 }
@@ -238,13 +238,13 @@ function drawMaze(name, score) {
             if (selector === prizeO+"-"+prizeX) {
                 // If the selector matches the prize set it to the prize
                 document.getElementById(prizeO+"-"+prizeX);
-                document.getElementById(prizeO+"-"+prizeX).innerHTML="<img src='img/icons8-music-15.png' alt='prize'/>";
+                document.getElementById(prizeO+"-"+prizeX).innerHTML="<img src='img/icons8-sweet-banana-15.png' alt='prize'/>";
             }
             // Check if the selector = where the player is. If it is, set it
             if (selector === playerO+"-"+playerX) {
                 // If the selector matches the player set it to the player
                 document.getElementById(playerO+"-"+playerX);
-                document.getElementById(playerO+"-"+playerX).innerHTML="<img src='img/icons8-rock-music-filled-15.png' alt='player'/>";
+                document.getElementById(playerO+"-"+playerX).innerHTML="<img src='img/icons8-mankey-15.png' alt='player'/>";
             }
             if (display[i][j][0] == 0) {
                 $('#' + selector).css('border-top', '2px solid white');
