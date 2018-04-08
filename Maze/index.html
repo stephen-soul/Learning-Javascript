@@ -1,0 +1,44 @@
+<!--Stephen Fetinko 2018-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Maze Entry</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.3/darkly/bootstrap.min.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div id="welcome">
+            <h1 id="mainPageWelcome">Welcome To The Maze</h1>
+            <p id="namePrompt">Please enter your name!</p>
+            <form onsubmit="passName()" action="maze.html">
+                <!--Have the input accept no less than 3 characters and no numbers-->
+                <p><input type="text" title="Name must be at least 3 letters. No numbers." id="nameInput" required minlength="2" pattern="^[A-Za-z]+$"></p>
+                <p id="error"></p>
+                <!--On submit, change the page-->
+                <input type="submit" id="submitButton" value="Play">
+            </form>
+        </div>
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <footer>
+            <hr>
+            <p>Stephen Fetinko, 2018</p>
+        </footer>
+    </body>
+</html>

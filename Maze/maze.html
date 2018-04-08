@@ -1,0 +1,44 @@
+<!--Stephen Fetinko 2018-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maze Game</title>
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!--Before the page loads, see if the user is allowed to view the page-->
+    <script>
+        checkIfNameExists()
+    </script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.3/darkly/bootstrap.min.css">
+</head>
+<body>
+    <!--H2 for the welcome message-->
+    <h2 id="mazeWelcome"></h2>
+    <p id="score"></p>
+    <!--Make a table for the maze-->
+    <div id="encapsulateMaze">
+        <table id="maze">
+            <tbody></tbody>
+        </table>
+    </div>
+    <div id="movementButtons">
+        <button id="up" onclick="buttonUp()">Up Button</button>
+        <button id="left" onclick="buttonLeft()">Left button</button>
+        <button id="right" onclick="buttonRight()">Right button</button>
+        <button id="down" onclick="buttonDown()">Down button</button>
+    </div>
+    <!--Call a footer at the end-->
+    <footer>
+        <hr>
+        <p>Stephen Fetinko, 2018 NSCC &copy;</p>
+    </footer>
+</body>
+<script>
+    // Return the name
+    returnName();
+</script>
+</html>
